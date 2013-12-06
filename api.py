@@ -10,8 +10,9 @@ import httplib
 import json
 
 #此处是在btcchina申请的appkey，此处填入自己的
-access_key="aa10e837-xxx"
-secret_key="cca9cf03-xxx"
+access_key="your own access_key"
+secret_key="your own secret_key"
+
 
 class BTCChina():
     def __init__(self,access=access_key,secret=secret_key):
