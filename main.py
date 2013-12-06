@@ -1,5 +1,5 @@
 #coding: utf-8
-from datetime import datetime, timedelta
+from datetime import datetime
 import time
 
 import api
@@ -223,6 +223,7 @@ def triple_step_buy_increase():
             old_price_quarter = current_price
             count == 0
         cancel_current_orders()
+        update_balance()
         time.sleep(60)
 
 
